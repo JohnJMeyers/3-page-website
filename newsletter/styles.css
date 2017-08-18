@@ -1,0 +1,151 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+header {
+  height: 75px;
+  width: 100%;
+}
+nav {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 3px lightgrey;
+}
+.nav-row {
+  margin-right: 500px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+}
+.nav-item {
+    color: #CD5D67;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.nav-item a:hover{
+  color: #CD5D67;
+}
+nav a {
+  font-size: 20px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;*/
+}
+.home-active-link a {
+  color: #968772;
+}
+.nav-img-box {
+  width: 100px;
+  height: 80px;
+  padding: 1%;
+}
+.nav-img {
+  align-self: center;
+  background-image: url("../images/optimized/bent-creek-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  width: 100%;
+  background-image: url("../images/optimized/background-2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: auto auto;
+  align-self: center;
+  min-height: 450px;
+  width: 700px;
+
+}
+.main-header {
+  padding-top: 50px;
+  font-size: 36px;
+  text-align: center;
+  align-self: center;
+  height: 25%;
+  width: 80%;
+}
+.sub-header {
+  margin-bottom: 20px;
+  font-size: 26px;
+  padding-top: 20px;
+  text-align: center;
+  align-self: center;
+  height: 15%;
+  width: 90%;
+}
+.form {
+  padding-top: 20px;
+  align-self: center;
+  height: 65%;
+  width: 90%;
+}
+.form-lines {
+  font-size: 18px;
+  padding-bottom: 40px;
+  height: 100%;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+.form-lines-color {
+  border-bottom: 3px solid #968772;
+}
+.form-lines-color:focus {
+  border-color: #967343;
+}
+.submit {
+  font-size: 20px;
+  color: #F2F1E8;
+  background-color: #968772;
+  align-self: center;
+  height: 65px;
+  width: 160px;
+}
+.submit:hover {
+  color: #FFFFFF;
+  background-color: #967343;
+}
+footer{
+  padding-top: 30px;
+  height: 90px;
+  width: 100%;
+  background-color: #2C2F26;
+}
+footer span{
+color: #ede5c0;
+font-size: 20px;
+padding-left: 25px;
+}

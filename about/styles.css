@@ -1,0 +1,265 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+nav {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 3px lightgrey;
+}
+.nav-row {
+  margin-right: 500px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+}
+.nav-item {
+    color: #CD5D67;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.nav-item a:hover{
+  color: #CD5D67;
+}
+nav a {
+  font-size: 20px;
+  color: #2B2F26;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;*/
+}
+.home-active-link a {
+  color: #968772;
+}
+.nav-img-box {
+  width: 100px;
+  height: 80px;
+  padding: 1%;
+}
+.nav-img {
+  align-self: center;
+  background-image: url("../images/optimized/bent-creek-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background-color: #F1F1E8;
+}
+.top-page {
+  margin-top: 85px;
+  height: 100%;
+  width: 70%;
+  align-self: center;
+}
+.header-title {
+  margin-bottom: 15px;
+  padding-right: 20px;
+  font-family: 'Merriweather', sans-serif;
+  letter-spacing: 2px;
+  font-size: 70px;
+  padding-top: 30px;
+  text-align: center;
+  height: 150px;
+  width: 100%;
+}
+.header-content {
+  padding-right: 30px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.header-picture {
+  float: left;
+  margin: 0px 45px 15px 0px;
+  background-size: cover;
+  background-position: center;
+  height: 140px;
+  width: 200px;
+  background-image: url("../images/optimized/birdhouse.jpg");
+}
+.header-content p {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: 'Merriweather', serif;
+  padding-right: 30px;
+  font-size: 20px;
+  line-height: 2;
+}
+.header-quote {
+  border-left: 2px black solid;
+  padding-right: 330px;
+  padding-left: 40px;
+  padding-top: 10px;
+  line-height: 1.5;
+  height: 80px;
+  font-size: 20px;
+  font-style: italic;
+}
+.header-history {
+  margin-top: 35px;
+  height: 300px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.header-history h4 {
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.header-history p {
+  font-family: 'Merriweather', serif;
+  padding-right: 130px;
+  font-size: 20px;
+  line-height: 2;
+}
+.middle-page {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/optimized/background-3.jpg");
+  background-attachment: fixed;
+  height: 350px;
+  width: 100%;
+}
+.middle-page h2 {
+  font-weight: lighter;
+  font-family: 'Merriweather', sans-serif;
+  text-shadow: 2px 2px grey;
+  align-self: center;
+  font-size: 70px;
+  color: #F2F1E8;
+}
+.bottom-page {
+  display: flex;
+  flex-direction: column;
+  height: 775px;
+  width: 100%;
+  background-color: #F1F1E8
+}
+.bottom-page-content {
+  height: 100%;
+  width: 75%;
+  align-self: center;
+}
+.facilities {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 43%;
+}
+.facilities h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.facilities-content {
+  font-family: 'Merriweather', serif;
+  padding-right: 130px;
+  font-size: 20px;
+  line-height: 2;
+  padding-right: 200px;
+  height: 220px;
+}
+.facilities-content p {
+  padding-right: 50px;
+}
+.facilities-aside {
+  transform: translateX(-10%);
+  transform: translateY(-98%);
+  height: 225px;
+  width: 200px;
+  float: right;
+}
+.facilities-picture {
+  background-image: url("../images/optimized/background-1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 125px;
+  width: 200px;
+}
+.facilities-aside p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 100px;
+}
+.monthly-plans {
+  margin-top: 20px;
+  height: 57%;
+}
+.plans-header {
+  margin-top: 30px;
+  font-size: 30px;
+  height: 70px;
+  width: 100%;
+}
+.plans-header h4{
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+}
+.plans-table {
+  transform: translateY(-35%);
+  table-layout: auto;
+  font-size: 24px;
+  width: 82%;
+  height: 50%;
+}
+table, tr, th, td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.row-2, .row-4 {
+  background-color: #F2ECDE;
+}
+footer{
+  padding-top: 30px;
+  height: 90px;
+  width: 100%;
+  background-color: #2C2F26;
+}
+footer span{
+color: #ede5c0;
+font-size: 20px;
+padding-left: 25px;
+}
+.header-content a:visited {
+color: #968772;
+}
+.header-content a:hover {
+color: #967343
+}
